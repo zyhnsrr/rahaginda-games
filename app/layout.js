@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Couple Games",
+  title: "RahaGinda Games",
   description: "Mini games for two",
 };
 
