@@ -15,7 +15,7 @@ const WINNING_COMBINATIONS = [
 ];
 
 const PUNISHMENTS = [
-  "Ciium pipi lawan 3x 😘",
+  "Cium dimana aja 3x 😘",
   "Kasih compliment tulus ke lawan 💬",
   "Peluk lawan selama 10 detik 🤗",
   "Nyanyiin lagu buat lawan 🎵",

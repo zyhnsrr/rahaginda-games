@@ -84,7 +84,7 @@ export default function LobbyScreen({ onStart, onBack }) {
 
   const handleStart = () => {
     if (!selectedTheme) {
-      setError("Pilih tema board dulu!");
+      setError("Choose board!");
       return;
     }
     setError("");
@@ -200,7 +200,7 @@ function PlayerCard({ label, accentColor, player, setPlayer, otherCharacter }) {
       <p style={{ ...styles.cardLabel, color: accentColor }}>{label}</p>
       <input
         style={styles.input}
-        placeholder="masukkan nama..."
+        placeholder="Input username..."
         value={player.name}
         onChange={(e) => setPlayer({ ...player, name: e.target.value })}
         maxLength={12}
